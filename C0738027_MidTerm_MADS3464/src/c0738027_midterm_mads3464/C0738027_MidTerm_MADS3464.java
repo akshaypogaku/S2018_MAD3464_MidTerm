@@ -18,6 +18,8 @@ public class C0738027_MidTerm_MADS3464 {
         // TODO code application logic here
         String string1="Lambton";
         String string2="";
+        String str="James tiBerUs kiRk";
+        String str2;
         
         {
         for(int i=string1.length()-1;i>=0;i--)
@@ -25,5 +27,12 @@ public class C0738027_MidTerm_MADS3464 {
     
     System.out.println("the reverse string is" +string2);
    }
+        if(str==null)
+        {
+            System.out.println("The String is empty");
+        }
+         str2=str.toUpperCase();
+         
+         System.out.println(str2);
     }
 }
