@@ -16,6 +16,14 @@ public class C0738027_MidTerm_MADS3464 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-    }
+        String string1="Lambton";
+        String string2="";
+        
+        {
+        for(int i=string1.length()-1;i>=0;i--)
+        string2 = string2 + string1.charAt(i);
     
+    System.out.println("the reverse string is" +string2);
+   }
+    }
 }
